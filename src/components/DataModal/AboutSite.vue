@@ -33,17 +33,7 @@
           v-html="icp"
         />
       </n-blockquote>
-      <n-button
-        class="github"
-        secondary
-        strong
-        @click="jumpUrl(packageJson.github)"
-      >
-        <template #icon>
-          <n-icon :component="GithubOne" />
-        </template>
-        Github
-      </n-button>
+      
     </div>
   </n-modal>
 </template>
