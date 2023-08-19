@@ -15,17 +15,7 @@
           v&nbsp;{{ packageJson.version }}
         </n-text>
       </div>
-      <n-blockquote>
-        <n-text class="power">
-          Copyright&nbsp;©&nbsp;2020 - {{ new Date().getFullYear() }}
-        <n-a
-          v-if="icp"
-          class="beian"
-          href="https://beian.miit.gov.cn/"
-          target="_blank"
-          v-html="icp"
-        />
-      </n-blockquote>
+    
       
     </div>
   </n-modal>
