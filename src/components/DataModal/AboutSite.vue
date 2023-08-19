@@ -15,7 +15,7 @@
           v&nbsp;{{ packageJson.version }}
         </n-text>
       </div>
-    
+    友情链接：
       
     </div>
   </n-modal>
